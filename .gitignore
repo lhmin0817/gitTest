@@ -1,0 +1,12 @@
+cli
+extensions
+argv.json
+secret.yaml
+
+/file.java # 현재 폴더의 file.java
+file.java # 모든 폴더의 file.java
+*.java # 모든 .java 파일
+!no.java # 이 파일을 추적해
+src/ # src 폴더 내용 전부
+src/*.java $ src 폴더 내무의 자바 파일들
+src/**/file.java # src 하위 폴더에 있는 모든 file.java
